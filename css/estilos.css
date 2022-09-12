@@ -608,7 +608,8 @@ footer > h4 {
     }
 
     .parte1 .nombrepresentacion {
-        margin: 50px;
+        margin-top: 50px;
+        margin-bottom: 30px;
     }
 
     .parte1 .nombrepresentacion > h4 {
