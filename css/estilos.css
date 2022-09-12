@@ -1,0 +1,726 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+/* ENCABEZADO  */
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(14, 14, 14);
+    padding: 10px;
+}
+
+.encabezado .nombre {
+    background-color: rgba(14, 14, 14);
+}
+
+.encabezado .nombre h1 {
+    background-color: rgba(14, 14, 14);
+    color: white;
+}
+
+.encabezado .menu {
+    background-color: rgba(14, 14, 14);
+}
+
+.encabezado .menu button {
+    background-color: #FFB11B;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.encabezado .menu button a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* MAIN  */
+
+.main {
+    background-image: url(../img/Fondo.jpg);
+    padding: 15%;
+    text-align: right;
+    align-items: center;
+}
+
+.main h2 {
+    font-size: 90px;
+}
+
+.main h3 {
+    font-size: 30px;
+}
+
+/* PARTE 1  */
+
+.parte1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(14, 14, 14);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.parte1 .quiensoy {
+    background-color: #FFB11B;
+    padding: 140px;
+}
+
+.parte1 .quiensoy > h2 {
+    font-size: 80px;
+}
+
+.parte1 .nombrepresentacion {
+    margin-right: 100px;
+}
+
+.parte1 .nombrepresentacion > h3 {
+    font-size: 60px;
+    color: #FFB11B;
+}
+
+.parte1 .nombrepresentacion > h4 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+/* PARTE 2 */
+
+.parte2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    padding-right: 60px;
+}
+
+.parte2 .ilovelearn > h2 {
+    margin-right: 120px;
+    margin-left: 90px;
+    margin-bottom: 50px;
+    font-size: 120px;
+    color: #FFB11B;
+    background-color: rgb(33, 33, 33);
+    padding: 30px;
+}
+
+.parte2 .img1 > p {
+    color: rgb(211, 211, 211);
+    margin-right: 130px;
+    margin-left: 80px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.parte2 .img1 > p > b {
+    color: #FFB11B;
+}
+
+
+.parte2 .img1 > img {
+    width: 800px;
+}
+
+/* PARTE 3 */
+
+.parte3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(33, 33, 33);
+}
+
+.parte3 .img2 > img {
+    width: 800px;
+    padding: 90px;
+}
+
+.parte3 .moreandmore {
+    padding: 90px;
+}
+
+.parte3 .moreandmore > p {
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.parte3 .moreandmore > p > b {
+    color: #FFB11B;
+}
+
+/* PARTE 4 */
+
+.parte4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.parte4 .finish {
+    padding: 90px;
+}
+
+.parte4 .finish > p{
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(211, 211, 211);
+}
+
+.parte4 .finish > p > b {
+    color: #FFB11B;
+}
+
+.parte4 .img3 > img {
+    width: 800px;
+    padding: 90px;
+}
+
+/* EMPRENDIMIENTO */
+
+.emprendimiento {
+    text-align: center;
+    align-items: center;
+    padding: 80px;
+    background-color: #FFB11B;
+}
+
+.emprendimiento > h2 {
+    font-size: 60px;
+}
+
+/* CODELIFE */
+
+.codelife {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(33, 33, 33);
+}
+
+.codelife .logocodelife > img {
+    width: 600px;
+    padding: 100px;
+}
+
+.codelife .codelifee {
+    padding: 90px;
+}
+
+.codelife .codelifee > p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+}
+
+.codelife .codelifee > p > a {
+    color:#FFB11B;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #FFB11B;
+}
+
+footer > h4 {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+}
+
+/* ----- RESPONSIVE DESING ------ */
+
+@media screen and (max-width: 1024px) { 
+    .encabezado .menu button a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+
+    /* MAIN  */
+
+    .main {
+        background-image: url(../img/Fondo.jpg);
+        background-size: 1010px;
+        padding: 15%;
+        text-align: right;
+        align-items: center;
+    }
+
+    .main h2 {
+        font-size: 70px;
+    }
+
+    /* PARTE 1  */
+
+    .parte1 .quiensoy {
+        background-color: #FFB11B;
+        padding: 80px;
+    }
+    
+    .parte1 .quiensoy > h2 {
+        font-size: 40px;
+    }
+
+    .parte1 .nombrepresentacion > h3 {
+        font-size: 40px;
+        color: #FFB11B;
+    }
+
+    .parte1 .nombrepresentacion > h4 {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    /* PARTE 2 */
+
+    .parte2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 60px;
+        padding-right: 50px;
+    }
+
+    .parte2 .ilovelearn > h2 {
+        margin: auto;
+        font-size: 100px;
+        color: #FFB11B;
+        background-color: rgb(33, 33, 33);
+        padding: 30px;
+    }
+
+    .parte2 .img1 > p {
+        color: rgb(211, 211, 211);
+        margin-right: 40px;
+        margin-left: 20px;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: right;
+    }
+
+    /* PARTE 3 */
+
+    .parte3 .img2 > img {
+        width: 500px;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    .parte3 .moreandmore {
+        padding: 30px;
+    }
+
+    .parte3 .moreandmore > p {
+        line-height: 50px;
+        text-align: left;
+        font-size: 25px;
+        color: white;
+    }
+
+    /* PARTE 4 */ 
+
+    .parte4 .finish {
+        padding: 30px;
+    }
+
+    .parte4 .finish > p{
+        font-size: 25px;
+        line-height: 45px;
+        text-align: right;
+        color: rgb(211, 211, 211);
+    }
+
+    .parte4 .img3 > img {
+        width: 500px;
+        padding-right: 20px;
+        padding-left: 0px;
+    }
+
+    /* EMPRENDIMIENTO */
+
+    .emprendimiento {
+        text-align: center;
+        align-items: center;
+        padding: 60px;
+        background-color: #FFB11B;
+    }
+
+    .emprendimiento > h2 {
+        font-size: 50px;
+    }
+
+    /* CODELIFE */
+
+    .codelife .logocodelife > img {
+        width: 500px;
+        padding: 30px;
+    }
+
+    .codelife .codelifee {
+        padding: 30px;
+    }
+
+    .codelife .codelifee > p {
+        font-size: 25px;
+        text-align: left;
+        color: white;
+        line-height: 40px;
+    }
+
+    /* FOOTER */
+
+    footer > h4 {
+        color: black;
+        text-align: center;
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .encabezado .menu button a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+
+    .encabezado .nombre h1 {
+        background-color: rgba(14, 14, 14);
+        color: white;
+        font-size: 20px;
+    }
+
+    .main {
+        background-image: url(../img/Fondo.jpg);
+        background-size: 100%;
+        padding-top: 15%;
+        padding-bottom: 15%;
+        padding-right: 5%;
+        text-align: right;
+        align-items: center;
+    }
+
+    .main h2 {
+        font-size: 40px;
+    }
+
+    .main h3 {
+        font-size: 20px;
+    }
+
+    .parte1 .quiensoy {
+        background-color: #FFB11B;
+        padding-right: 50px;
+        padding-left:50px ;
+    }
+
+    .parte1 .quiensoy > h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .parte1 .nombrepresentacion {
+        margin: 20px;
+    }
+
+    .parte1 .nombrepresentacion > h3 {
+        font-size: 30px;
+        color: #FFB11B;
+    }
+
+    .parte1 .nombrepresentacion > h4 {
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+
+    .parte2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        padding: 40px;
+    }
+
+    .parte2 .ilovelearn > h2 {
+        /* margin-right: 120px;
+        margin-left: 90px; */
+        margin-bottom: 50px;
+        font-size: 65px;
+        color: #FFB11B;
+        background-color: rgb(33, 33, 33);
+        padding: 15px;
+    }
+
+    .parte2 .img1 > p {
+        color: rgb(211, 211, 211);
+        font-size: 20px;
+        line-height: 32px;
+        text-align: justify;
+    }
+
+    .parte3 .img2 > img {
+        width: 300px;
+    }
+
+    .parte3 .moreandmore {
+        padding: 25px;
+    }
+
+    .parte3 .moreandmore > p {
+        line-height: 32px;
+        text-align: justify;
+        font-size: 20px;
+        color: white;
+        padding: 3%;
+    }
+
+    .parte4 .finish {
+        padding: 25px;
+    }
+
+    .parte4 .img3 > img {
+        width: 300px;
+    }
+
+    .parte4 .finish > p{
+        font-size: 20px;
+        line-height: 32px;
+        text-align: justify;
+        color: rgb(211, 211, 211);
+        padding: 3%;
+    }
+
+    .emprendimiento {
+        text-align: center;
+        align-items: center;
+        padding: 30px;
+        background-color: #FFB11B;
+    }
+
+    .emprendimiento > h2 {
+        font-size: 50px;
+    }
+
+    .codelife {
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(33, 33, 33);
+    }
+
+    .codelife .logocodelife > img {
+        width: 270px;
+        float: left;
+    }
+
+    .codelife .codelifee {
+        padding: 25px;
+    }
+
+    .codelife .codelifee > p {
+        font-size: 20px;
+        text-align: justify;
+        color: white;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .encabezado .menu button {
+        background-color: #FFB11B;
+        padding: 10px;
+        margin: 1px;
+        border-radius: 10px;
+    }
+
+    .encabezado .menu button a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+
+    .encabezado .nombre h1 {
+        background-color: rgba(14, 14, 14);
+        color: white;
+        font-size: 17px;
+    }
+
+    .main h2 {
+        font-size: 30px;
+    }
+
+    .main h3 {
+        font-size: 20px;
+    }
+
+    .parte1 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        background-color: rgba(14, 14, 14);
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .parte1 .quiensoy {
+        background-color: #FFB11B;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    .parte1 .quiensoy > h2 {
+        font-size: 25px;
+    }
+
+    .parte1 .nombrepresentacion {
+        margin: 50px;
+    }
+
+    .parte1 .nombrepresentacion > h4 {
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+    }
+
+    .parte2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        padding: 30px;
+    }
+
+    .parte2 .ilovelearn > h2 {
+        /* margin-right: 120px;
+        margin-left: 90px; */
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-size: 40px;
+        color: #FFB11B;
+        background-color: rgb(33, 33, 33);
+        padding: 20px;
+    }
+
+    .parte2 .img1 > p {
+        color: rgb(211, 211, 211);
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .parte3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(33, 33, 33);
+    }
+
+    .parte3 .img2 > img {
+        width: 300px;
+    }
+
+    .parte3 .moreandmore {
+        padding: 30px;
+    }
+
+    .parte3 .moreandmore > p {
+        line-height: 32px;
+        text-align: justify;
+        font-size: 20px;
+        color: white;
+        padding: 0%;
+    }
+
+    .parte3 .img2 > img {
+        width: 300px;
+        margin: 0%;
+        padding: 30px;
+    }
+
+    .parte4 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: black;
+    }
+    .parte4 .finish {
+        padding: 30px;
+    }
+
+    .parte4 .finish > p{
+        font-size: 20px;
+        line-height: 32px;
+        text-align: justify;
+        color: rgb(211, 211, 211);
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .parte4 .img3 > img {
+        width: 300px;
+        padding: 10px;
+        margin-bottom: 10%;
+    }
+
+    .emprendimiento {
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+        background-color: #FFB11B;
+    }
+
+    .codelife .logocodelife > img {
+        width: 150px;
+        float: left;
+    }
+
+    footer > h4 {
+        color: black;
+        text-align: center;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    
+
+    .emprendimiento > h2 {
+        font-size: 30px;
+    }
+}
